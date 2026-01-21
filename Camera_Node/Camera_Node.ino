@@ -105,9 +105,9 @@ void setup() {
 
   config.xclk_freq_hz = 20000000;
 
-  config.pixel_format = PIXFORMAT_JPEG; // Định dạng ảnh nén
-  config.frame_size = FRAMESIZE_QVGA;    // Độ phân giải 320x240 (Nhẹ để gửi MQTT)
-  config.jpeg_quality = 12;              // 0-63 (số càng thấp ảnh càng nét nhưng nặng)
+  config.pixel_format = PIXFORMAT_JPEG; // Compressed image format
+  config.frame_size = FRAMESIZE_QVGA;    // 320x240
+  config.jpeg_quality = 12;              // 0-63 (number--, sharpness++, size++)
   config.fb_count = 1;
   config.fb_location = CAMERA_FB_IN_PSRAM;
 
