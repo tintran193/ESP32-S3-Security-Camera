@@ -23,11 +23,11 @@ MQTTPubSubClient mqtt;
 void setup() {
   Serial.begin(115200);
   //BUTTON
-  pinMode(BUTTON_PIN, INPUT_PULLUP); // Sử dụng trở kéo lên nội bộ
+  pinMode(BUTTON_PIN, INPUT_PULLUP); //Pull-up
   //
   //HC SR-04 PIN MODE
-  pinMode(TRIG_PIN, OUTPUT); // Chân Trig phát tín hiệu
-  pinMode(ECHO_PIN, INPUT);  // Chân Echo nhận tín hiệu
+  pinMode(TRIG_PIN, OUTPUT); 
+  pinMode(ECHO_PIN, INPUT); 
   //WIFI and MQTT Connecting
   WiFi.begin(ssid, password);
   Serial.print("\nConnecting to Wifi...");
