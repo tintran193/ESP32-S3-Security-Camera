@@ -13,7 +13,9 @@ Function: Detects intruders within a 10cm threshold (or your threshold) or accep
 Hardware: OV2640 Camera, Flash LED.
 
 Function: Receives MQTT commands, captures high-resolution images, encodes data to Base64, and uploads via secure payloads.
-## Key Technical FeaturesSecure Connectivity: 
+## Key Technical Features
+
+Secure Connectivity: 
 Implements MQTT over SSL/TLS (Port 8884) for encrypted data transmission to HiveMQ Cloud.
 
 DVP Interface: Configured high-speed Digital Video Port pins for stable image data acquisition from the OV2640 sensor.
